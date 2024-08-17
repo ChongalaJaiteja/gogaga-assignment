@@ -89,3 +89,40 @@ body {
 .input-group .form-control::placeholder {
     color: #888;
 }
+.search-btn {
+    font-size: 1rem;
+}
+/* responsive font-size */
+@media (min-width: 768px) {
+    .responsive-display-1 {
+        font-size: 2.5rem !important;
+    }
+
+    .responsive-fs-1 {
+        font-size: 1.25rem !important;
+    }
+
+    .responsive-fs-2 {
+        font-size: 0.8rem !important;
+    }
+    .search-btn {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .responsive-display-1 {
+        font-size: 3rem !important;
+    }
+
+    .responsive-fs-1 {
+        font-size: 1.5rem !important;
+    }
+
+    .responsive-fs-2 {
+        font-size: 0.97rem !important;
+    }
+    .search-btn {
+        font-size: 1.4rem;
+    }
+}
